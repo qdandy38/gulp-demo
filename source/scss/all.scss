@@ -1,6 +1,10 @@
-@import './bower_components/bootstrap/scss/bootstrap';
+// Required
+@import "functions";
+@import "helpers/variables";
+@import "mixins";
+@import 'bootstrap';
 $primary-color: #00cc99;
 h1 {
-    font-size: 1.25rem;
+    font-size: 5rem;
     color: #00cc99;
 }

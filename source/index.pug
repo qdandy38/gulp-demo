@@ -1,0 +1,16 @@
+extend _layout.pug
+
+block navbar
+    include partials/navbar.pug
+block content
+    h1 #{menu.list[1].name}
+    hr
+    h1 測試
+    a.btn.btn-primary(href="#") 按鈕
+    ul
+        li
+            a(href="#") 1
+        li
+            a(href="#") 2
+        li
+            a(href="#") 3

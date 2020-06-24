@@ -2,3 +2,7 @@
 bower_components
 public
 node_modules
+.publish
+package-lock.json
+.gitattributes
+.git
